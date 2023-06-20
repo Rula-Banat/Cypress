@@ -1,3 +1,4 @@
+//Test adding 3 random items to cart to www.saucedemo.com 
 describe('Add to cart', () => {
     it('Add 3 items to cart', () => {
      cy.visit("https://www.saucedemo.com/")

@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-
+//Test login to www.saucedemo.com with locked-out user 
 describe('Locked out user Login', () => {
     it('login', () => {
         cy.visit('https://www.saucedemo.com/')
