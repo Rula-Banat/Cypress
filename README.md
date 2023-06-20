@@ -1,2 +1,2 @@
-"# Cypress" 
-"# Cypress" 
+"Cypress" 
+"QA automated testing" 
