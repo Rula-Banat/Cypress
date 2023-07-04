@@ -26,7 +26,7 @@ describe('Count and calculate total of item prices under men hoodies and sweatch
 });
 
 describe('Count and calculate total of item prices under gears bags', () => {
-    it.only('Count and calculate total of item prices under gears bags', () => {
+    it('Count and calculate total of item prices under gears bags', () => {
         cy.visit('https://magento.softwaretestingboard.com')
         //Go to Gears > Bags
         cy.get('a[href*="bags.html"]').click({ force: true })
