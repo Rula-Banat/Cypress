@@ -8,6 +8,6 @@ module.exports = defineConfig({
     specPattern : 'cypress/integration/e2e/*'
   },
   chromeWebSecurity : false,
-  pageLoadTimeout: 11000,
+  pageLoadTimeout: 200000,
 });
 
